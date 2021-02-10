@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>base</OriginalElement>
+  <nodes>
+    <node x="0.0" y="811.5">sensor.VirtualSensorConstant</node>
+    <node x="680.0" y="811.5">sensor.VirtualErrorSensorError</node>
+    <node x="711.0" y="978.0">base.Position</node>
+    <node x="247.99999999999997" y="767.0">sensor.VirtualSensor</node>
+    <node x="618.0" y="0.0">station.FirmwareWeatherStation</node>
+    <node x="172.75" y="0.0">station.AbstractWeatherStationInfo</node>
+    <node x="580.0" y="1234.0">base.WeatherStationStatus</node>
+    <node x="0.0" y="1234.0">base.PowerSource</node>
+    <node x="0.0" y="392.5">station.WeatherStationInfo</node>
+    <node x="470.0" y="978.0">sensor.SensorValue</node>
+    <node x="957.0" y="514.0">station.StationManagmentSystem</node>
+    <node x="246.0" y="978.0">base.PowerStatus</node>
+    <node x="247.0" y="1234.0">base.Utilities</node>
+    <node x="943.0" y="978.0">base.DataBase</node>
+    <node x="404.0" y="514.0">sensor.ISensor</node>
+    <node x="871.0" y="1234.0">base.Mode</node>
+    <node x="325.0" y="392.0">station.VirtualWeatherStationInfo</node>
+    <node x="380.0" y="640.0">sensor.GenericSensor</node>
+    <node x="468.0" y="811.5">sensor.VirtualErrorSensor</node>
+    <node x="1080.0" y="1234.0">base.Constant</node>
+    <node x="0.0" y="978.0">base.Dimension</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sensor.VirtualSensorConstant" target="sensor.GenericSensor">
+      <point x="0.0" y="-38.5" />
+      <point x="114.0" y="737.0" />
+      <point x="399.0" y="737.0" />
+      <point x="-57.0" y="38.5" />
+    </edge>
+    <edge source="sensor.GenericSensor" target="sensor.ISensor">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="sensor.VirtualErrorSensor" target="sensor.GenericSensor">
+      <point x="0.0" y="-38.5" />
+      <point x="564.0" y="747.0" />
+      <point x="475.0" y="747.0" />
+      <point x="19.0" y="38.5" />
+    </edge>
+    <edge source="sensor.VirtualErrorSensorError" target="sensor.GenericSensor">
+      <point x="0.0" y="-38.5" />
+      <point x="796.0" y="737.0" />
+      <point x="513.0" y="737.0" />
+      <point x="57.0" y="38.5" />
+    </edge>
+    <edge source="sensor.VirtualSensor" target="sensor.GenericSensor">
+      <point x="0.0" y="-83.0" />
+      <point x="348.0" y="747.0" />
+      <point x="437.0" y="747.0" />
+      <point x="-19.0" y="38.5" />
+    </edge>
+    <edge source="station.VirtualWeatherStationInfo" target="station.AbstractWeatherStationInfo">
+      <point x="0.0" y="-38.5" />
+      <point x="449.0" y="367.0" />
+      <point x="364.75" y="367.0" />
+      <point x="64.0" y="171.0" />
+    </edge>
+    <edge source="station.WeatherStationInfo" target="station.AbstractWeatherStationInfo">
+      <point x="0.0" y="-38.0" />
+      <point x="152.5" y="367.0" />
+      <point x="236.75" y="367.0" />
+      <point x="-64.0" y="171.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4839467501957713" x="628.5" y="688.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
